@@ -1,3 +1,7 @@
+body {
+    background-color: blue;
+}
+
 #parent{
     background-color: #C8AB83;
     color: white;
@@ -31,4 +35,20 @@
     background-repeat: repeat-x;
     background-position: left top;
     border: 3px dashed;
+ }
+
+ #first {
+    width: 300px;
+    height: 300px;
+    border: 3px solid white;
+    background-image: url("1.png");
+    background-size: contain;
+ }
+
+ #second {
+    width: 300px;
+    height: 300px;
+    border: 2px dashed red;
+    background-image: url("1.png");
+    background-size: cover;
  }
