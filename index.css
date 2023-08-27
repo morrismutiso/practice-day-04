@@ -1,6 +1,22 @@
-.fixed {
-    position: fixed;
-    top: 10px;
+#parent{
+    background-color: #C8AB83;
+    color: white;
+    padding: 10px;
+    height: 300px;
+  }
+
+  .absolute {
+    background-color: #fff;
+    color: #111;
+    position: absolute;
     right: 0;
-    border: 3px solid blue;
-}
+    border: 3px solid #abba00;
+ }
+
+ #desc {
+    height: 300px;
+    background-color: lime;
+    border: 3px solid black;
+    padding: 10px;
+    background-image: url("amirali-mirhashemian-sc5sTPMrVfk-unsplash-removebg-preview.png");
+ }
